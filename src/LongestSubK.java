@@ -11,13 +11,20 @@ public class LongestSubK {
         int max_s=0;
         int max_e=0;
         int[] count=new int[256];
+        int num=0;
         for (int e=0;e<n;e++)
         {
-            count[str.charAt(e)]++;
-            while(!valid1(count, k))
+//            count[str.charAt(e)]++;
+//            while(!valid1(count, k))
+//            {
+//                count[str.charAt(s)]--;
+//                s++;
+//            }
+            if (count[str.charAt(e)]++==0) num++;
+            if (num>k)
             {
-                count[str.charAt(s)]--;
-                s++;
+                while(--count[str.charAt(s++)]>0);
+                num--;
             }
             if(e-s>max_e-max_s)
             {
@@ -27,15 +34,15 @@ public class LongestSubK {
         }
         return str.substring(max_s,max_e+1);
     }
-    private boolean valid1(int[] count, int k) {
-        int c=0;
-        for (int v:count)
-        {
-            if(v>0)
-                c++;
-        }
-        return c<=k;
-    }
+//    private boolean valid1(int[] count, int k) {
+//        int c=0;
+//        for (int v:count)
+//        {
+//            if(v>0)
+//                c++;
+//        }
+//        return c<=k;
+//    }
     public String solve2(String str,int k)
     {
         int s=0;
@@ -50,11 +57,11 @@ public class LongestSubK {
             if(!valid2(index, k))
             {
                 int min=Integer.MAX_VALUE;
-                int min_index=s;
+                int min_index=0;
                 for (int i=0;i<256;i++)
                 {
                     if (index[i]!=-1 && index[i]<min) {
-                        min = Math.min(min, index[i]);
+                        min = index[i];
                         min_index=i;
                     }
                 }
