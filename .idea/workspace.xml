@@ -2,20 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="515df8a9-3cab-4e79-b377-b468c7549170" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/FourSum.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Lambda.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/LengthOfLIS.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/LetterCombinations.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/MyMap.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/PalindromePairs.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Permutation.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Replace.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/WordBreak.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/test/TestSplit.class" afterPath="$PROJECT_DIR$/out/production/test/TestSplit.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/MergeSorteList.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/RemoveNth.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/CountSmallerAfterSelf.java" afterPath="$PROJECT_DIR$/src/CountSmallerAfterSelf.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/LongestSubK.java" afterPath="$PROJECT_DIR$/src/LongestSubK.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/TestSplit.java" afterPath="$PROJECT_DIR$/src/TestSplit.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/FourSum.java" afterPath="$PROJECT_DIR$/src/FourSum.java" />
     </list>
     <ignored path="test.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -37,40 +27,6 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="WordBreak.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/WordBreak.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="29" column="21" selection-start-line="10" selection-start-column="8" selection-end-line="29" selection-end-column="21" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="LongestSubK.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/LongestSubK.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="31" column="15" selection-start-line="31" selection-start-column="15" selection-end-line="31" selection-end-column="15" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Permutation.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/Permutation.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="28" column="9" selection-start-line="28" selection-start-column="9" selection-end-line="28" selection-end-column="9" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="LetterCombinations.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/LetterCombinations.java">
           <provider selected="true" editor-type-id="text-editor">
@@ -83,13 +39,35 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="FourSum.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="FourSum.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/FourSum.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.13297872">
-              <caret line="9" column="18" selection-start-line="9" selection-start-column="18" selection-end-line="9" selection-end-column="18" />
+            <state vertical-scroll-proportion="0.0">
+              <caret line="24" column="29" selection-start-line="24" selection-start-column="29" selection-end-line="24" selection-end-column="29" />
               <folding>
                 <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="RemoveNth.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/RemoveNth.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0">
+              <caret line="20" column="17" selection-start-line="20" selection-start-column="17" selection-end-line="20" selection-end-column="17" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="MergeSorteList.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/MergeSorteList.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.87765956">
+              <caret line="33" column="25" selection-start-line="19" selection-start-column="8" selection-end-line="33" selection-end-column="25" />
+              <folding>
+                <element signature="n#!!doc" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -218,6 +196,10 @@
         <option value="$PROJECT_DIR$/src/Permutation.java" />
         <option value="$PROJECT_DIR$/src/LetterCombinations.java" />
         <option value="$PROJECT_DIR$/src/FourSum.java" />
+        <option value="$PROJECT_DIR$/src/RemoveNth.java" />
+        <option value="$PROJECT_DIR$/src/MergeSorteList.java" />
+        <option value="$PROJECT_DIR$/src/SwapNodes.java" />
+        <option value="$PROJECT_DIR$/src/SubstringConcatenation.java" />
       </list>
     </option>
   </component>
@@ -677,7 +659,13 @@
       <option name="project" value="LOCAL" />
       <updated>1459359173098</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="add new java files">
+      <created>1459976082657</created>
+      <option name="number" value="00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1459976082657</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -1155,10 +1143,28 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/FourSum.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.13297872">
-          <caret line="9" column="18" selection-start-line="9" selection-start-column="18" selection-end-line="9" selection-end-column="18" />
+        <state vertical-scroll-proportion="0.0">
+          <caret line="24" column="29" selection-start-line="24" selection-start-column="29" selection-end-line="24" selection-end-column="29" />
           <folding>
             <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/RemoveNth.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="20" column="17" selection-start-line="20" selection-start-column="17" selection-end-line="20" selection-end-column="17" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/MergeSorteList.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.87765956">
+          <caret line="33" column="25" selection-start-line="19" selection-start-column="8" selection-end-line="33" selection-end-column="25" />
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
           </folding>
         </state>
       </provider>
