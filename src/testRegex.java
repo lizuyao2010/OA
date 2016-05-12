@@ -11,7 +11,7 @@ public class testRegex {
 //        String pattern="(\\d{1,2})\\W{1,3}(\\d{4}|\\d{2})";
         String pattern="(\\d{1,2})\\s*[/-]\\s*(\\d{4}|\\d{2})";
         Pattern r = Pattern.compile(pattern);
-        String input="12/99";
+        String input="R2/2005";
         Matcher m = r.matcher(input);
         if (m.find())
         {
